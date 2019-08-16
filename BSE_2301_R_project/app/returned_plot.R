@@ -1,0 +1,5 @@
+library(latticeExtra)
+returned <- read.csv("app/csv/returned.csv")
+Total <- xyplot(Received_Refugees ~ Year, returned, type = "l" , lwd=2,ylab=" ")
+Returned <- xyplot(Returned_Refugees ~ Year, returned, type = "l", lwd=2,ylab=" ")
+doubleYScale(Total, Returned,text = c("Total Received", "Returned"))

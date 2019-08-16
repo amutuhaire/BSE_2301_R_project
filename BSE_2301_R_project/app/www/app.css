@@ -1,0 +1,210 @@
+/*Modified Original*/
+.wrapper {
+        background-image: linear-gradient( -350.3deg, rgb(191, 127, 147) -59.2%, rgba(201,218,238,1) 46.4%, rgba(164,240,229,0.8) 86.4% );
+        font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+}
+.content-wrapper, .right-side {
+    background-color: transparent;
+}
+.skin-blue .main-header .navbar,.skin-blue .main-sidebar, 
+.skin-blue .main-header .logo{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.skin-blue .main-header .logo:hover,.skin-blue .main-header .navbar .sidebar-toggle:hover,
+.skin-blue .main-header .navbar .sidebar-toggle:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    color:black;
+}
+.skin-blue .main-header .logo, .skin-blue .main-header .navbar .sidebar-toggle {
+    color: black;
+}
+.skin-blue .sidebar a {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.sidebar-menu>li>a>.fa, .sidebar-menu>li>a>.glyphicon, .sidebar-menu>li>a>.ion {
+    color: green;
+}
+.skin-blue .sidebar-menu>li.active>a, .skin-blue .sidebar-menu>li:hover>a {
+    color: black;
+    background: #ffffff6b;
+    border-left-color: green;
+}
+.box{
+    background:transparent;
+    border-radius:8px;
+}
+.box-header,.data-desc-header {
+    background: rgba(255, 255, 255, 0.7);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+}
+.box-body {
+    background: rgba(255, 255, 255, 0.4);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.nav-stacked>li>a{
+    color: #444;
+    border-top: 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background: #F8F8F8;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+.nav-stacked>li>a:hover{
+    background: rgb(243, 243, 243);
+}
+.nav-stacked>li.active>a, .nav-stacked>li.active>a:hover {
+    background: #E7E7E7;
+    border-left-color: transparent;
+}
+.shiny-input-container:not(.shiny-input-container-inline) {
+    font-size:16px;
+    width:100%;
+    margin-left: 22px;
+}
+.navbar-default {
+    margin-bottom: 6px;
+}
+/*Custom*/
+#about p {
+    font-size: 18px;
+    font-weight: 300;
+}
+#about li,#conclusions li{
+    line-height: 2.1;
+    font-size: 16px;
+}
+#preview {
+    margin: 1% auto;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 300;
+    padding: 12px 0;
+    font-size: 18px;
+    width: 60%;
+}
+.data-table{
+    width:66%;
+    overflow:auto;
+    margin-bottom:10px;
+}
+@media (max-width: 767px){
+     .data-table{
+        width:98%;
+        margin-top:10px;
+        overflow:auto;
+    }   
+}
+.data-table .table {
+    background: rgb(255, 255, 255,0.85);
+    margin-bottom: 0;
+}
+.data-table table tr:nth-child(even) {
+    background: #d8efcd;
+}
+.data-table table>thead>tr>th {
+    border: none;
+}
+table.dataTable th {
+    color:  black;
+}
+.data-desc-header {
+    padding: 8px 20px;
+    font-size: 16px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border-radius: 8px;
+    line-height: 3;
+    color:white;
+}
+
+.var-header {
+    padding: 16px 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.var-name {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 21px;
+    text-transform: uppercase;
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.years {
+    color: #b32a2a;
+}
+.age {
+    color: #7319c5;
+}
+.pop-count {
+    color: cadetblue;
+}
+.asylum {
+    color: #a09d35;
+}
+.gender {
+    color: #48484a;
+}
+.variables-col {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    padding: 10px 24px;
+    line-height: 2;
+}
+.col-name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.graph-area p {
+    text-align: center;
+    margin-top: 11px;
+    font-size: 20px;
+    background: #ffffffb5;
+    padding: 9px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 0;
+}
+
+.shiny-plot-output {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+#treeOutput, #canvas {
+    border-radius: 6px;
+}
+img {
+    border-radius: inherit;
+}
+.well{    
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.variables-col li {
+    font-size: 18px;
+    font-weight: 300;
+}
+.variables-col input[type="radio"] {
+    margin-top: 7px;
+}
+.explanation, .recommendation {
+    margin: 0;
+    font-size: 18px;
+    color: #5763a0;
+    font-weight: 600;
+}
+.recommendation {
+    color: #0c5f65;
+}
