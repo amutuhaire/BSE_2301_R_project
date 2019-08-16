@@ -1,7 +1,7 @@
 # Library
 library(tidyverse)
 library(ggplot2)
-avg = readr::read_csv("csv/average_locations.csv")
+avg = readr::read_csv("app/csv/average_locations.csv")
 
 
 ggplot(avg, aes(x=Location.Name, y=AvgTotal)) +

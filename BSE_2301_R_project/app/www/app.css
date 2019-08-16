@@ -111,7 +111,9 @@
 .data-table table>thead>tr>th {
     border: none;
 }
-
+table.dataTable th {
+    color:  black;
+}
 .data-desc-header {
     padding: 8px 20px;
     font-size: 16px;
@@ -196,4 +198,13 @@ img {
 }
 .variables-col input[type="radio"] {
     margin-top: 7px;
+}
+.explanation, .recommendation {
+    margin: 0;
+    font-size: 18px;
+    color: #5763a0;
+    font-weight: 600;
+}
+.recommendation {
+    color: #0c5f65;
 }
